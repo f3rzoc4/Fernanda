@@ -1,8 +1,3 @@
-
-ROBERTA DE PAULA DA SILVA ANQUIZES <roberta.anquizes@escola.pr.gov.br>
-07:58 (há 0 minuto)
-para mim
-
 alert('Boas vindas ao numero secreto');
 let numeroSecreto = 6;
 console.log(numeroSecreto)
