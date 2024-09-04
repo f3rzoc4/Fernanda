@@ -1,3 +1,8 @@
+
+ROBERTA DE PAULA DA SILVA ANQUIZES <roberta.anquizes@escola.pr.gov.br>
+07:58 (há 0 minuto)
+para mim
+
 alert('Boas vindas ao numero secreto');
 let numeroSecreto = 6;
 console.log(numeroSecreto)
@@ -9,33 +14,24 @@ while (chute!= numeroSecreto) {
 chute = prompt('Escolha um numero entre 1 e 10');
 //se chute for igual ao número secreto
 if(chute==numeroSecreto){
- 
-break;
-
-} else {
+    break;
+ } else {
 if(chute > numeroSecreto){
 alert('O numeroSecreto é menor que ${chute}');
 } else {
 alert('O numeroSecreto é maior que ${chute}');
 }
-}//tentativas = tentativas + 1;
+} //tentativas = tentativas + 1;
 tentativas++;
 }
-
-let palavraTentativa
-= tentativas > 1 ? 'tentativas' : 'tentativa';
-
-alert('isso aí! você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}. ');
-
-//if
-(tentativas > 1) {
-
-//alert ('isso aí! você descobriu o número secreto ${numeroSecreto] com ${tentativas} tentativas.');
-
-//}
-else {
-
- //alert
-('isso aí! você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.');
-
- //}
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.`);
+//if (tentativas > 1) { 
+    //
+alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
+// } else {
+    //
+ alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com
+    ${tentativas} tentativa.`);
+    
+     //}
